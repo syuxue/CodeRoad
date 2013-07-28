@@ -18,7 +18,11 @@ void main(){
 	*pi=0x1234;
 	*ps=0x1234;
 	*pc=0x12;
-
+//Î£ÏÕ´úÂëÊ¾Àı
+	int *di;
+	short si=12;
+	di=(int *)&si;
+	printf("%d\t%x\n",*di,*di);
 }
 
 
