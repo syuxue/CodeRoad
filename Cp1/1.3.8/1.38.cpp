@@ -15,4 +15,5 @@ int next(int num){
 
 void main(){
 	next(1);
+	printf("i=%d\n",i);
 }
